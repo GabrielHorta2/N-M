@@ -23,6 +23,8 @@
                 <tr>
                     <td>{{ $item->title }}</td>
                     <td>{{ $item->artist }}</td>
+                    <td>{{$item->album->name}}</td>
+                    <td>img src={{$item->album->url_img}}</td>
                     <td>{{ $item->album }}</td>
                     <td>{{ $item->year }}</td>
                     <td>{{ $item->genre }}</td>
